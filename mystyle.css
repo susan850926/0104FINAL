@@ -1,0 +1,510 @@
+/* nai plus*/
+.popnav1 li img, .popnav2 li img{
+	padding: 7%;
+    width: 100%;
+	max-width: 370px;
+}
+/******/
+
+ul,li{list-style:none;}
+.bg {
+    background-color: #ffffff;
+    margin:auto;
+    width:100%;
+  }
+
+.LOGO{
+   justify-self: flex-start;
+}
+
+.header{
+  height:200px;
+  display:flex;
+  justify-content:space-between;
+}
+.nav-list{
+    width:800px;
+    display:flex;
+    justify-content:space-between;
+    margin-top:-10px;
+    padding-right:50px;
+    text-align: center;
+    font-family: 'Microsoft JhengHei';
+    font-size: 20px;
+    color:#3E3E3E;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+.nav-list li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1em;
+  overflow: hidden;
+}
+
+.nav-list a {
+  backface-visibility: hidden;
+  color: #3E3E3E;
+  display: block;
+  line-height: 2em;
+  padding: 1.2em  1em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.nav-list a:after {
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+  background-color: #931F30;
+  color: transparent;
+  content: attr(data-hover);
+  left: 0;
+  line-height: 7.5em;
+  position: absolute;
+  bottom: 100%;
+  width: 100%;
+  opacity: 0.4;
+}
+.nav-list li:hover a,
+.nav-list li.current a {
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  color: transparent;
+}
+.nav-list li:hover a:after,
+.nav-list li.current a:after {
+  opacity: 1;
+  color: #ffffff;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+
+.btn_facebook {
+  padding-top:3%;
+  padding-right:20px;
+  }
+
+.btn_facebook:hover{
+        opacity:50%;
+      }
+      
+
+.BGPIC{
+  width:100%;
+  margin:0 auto;
+  margin-top:-3.3%;
+}
+
+.papaya{
+
+}
+
+#carouselExampleIndicators{
+
+}
+
+.popdrink{
+	text-align: center;
+    margin: 8% 0 6%;
+}
+
+.popnav3{
+	display:flex;
+	justify-content: center;
+  }
+  
+  .popnav4{
+	display:flex;
+	justify-content: center;
+  }
+
+.ftbg{
+  background-color:#F8F7F2;
+  width:100%;
+  margin:0;
+  padding-bottom:2%;
+  justify-content: flex-end;
+}
+
+.ftbg1{
+  background-color:#F8F7F2;
+  width:100%;
+  padding-bottom:2%;
+  
+}
+
+.ftbg-LOGO{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding-top:2%;
+  
+}
+
+.line_login {
+  height: 1px;
+  width:60%;
+  margin: 0 auto;
+  background-color: #707070;
+  margin-top:1.5%;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.text{
+  font-size:100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: #3E3E3E;
+  letter-spacing:120%;
+  margin:center;
+  text-align: center;
+  padding-top:1%;
+}
+
+.menu{
+  display:flex;
+  justify-content: center;
+  align-content:center;
+  padding-bottom:25%;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+.intro{
+  width:100%;
+  margin:0 auto;
+  margin-top:-3.3%;
+}
+
+.introtext{
+  display:none;
+  font-size:18px;
+  font-family: 'Microsoft JhengHei';
+  font-weight: 600;
+  color: #3E3E3E;
+  letter-spacing:5px;
+  line-height: 48px;
+  margin:0 auto;
+  text-align: center;
+  padding-top:10%;
+  padding-bottom:6%;
+}
+.container{
+  width: 68%;
+  margin:0 auto;
+  padding-top:5%;
+  padding-bottom:10%;
+  padding-left:10%;
+  padding-right:5%;
+  
+}
+
+.container1{
+  width: 68%;
+  margin:0 auto;
+  padding-top:5%;
+  padding-bottom:40%;
+  padding-left:10%;
+  padding-right:5%;
+  
+}
+
+.work{
+  font-family: 'Microsoft JhengHei';
+  color: #3E3E3E;
+  letter-spacing:2px;
+  font-weight: 600;
+  float:left;
+  width: 48%;
+  margin-bottom: 5%;
+  margin-right: 2%;
+  
+}
+
+.ftflex{
+  margin:0;
+  height:200px;
+}
+
+.popWin {
+	display: none;
+	width: 960px;
+	font-size: 15px;
+	color: #FFF;
+}
+.popWin .btn {
+	padding-top: 30px;
+	text-align: center;
+}
+.popWin .btn a {
+	display: inline-block;
+	color: #FFF;
+	font-size: 15px;
+	position: relative;
+	z-index: 1;
+	padding: 15px 50px;
+	
+	font-family: "cwTeXFangSong", serif;
+	letter-spacing: .1em;
+}
+.popWin .btn a:after {
+	content: '';
+	position: absolute;
+	left: 4px;
+	top: 3px;
+	width: calc(100% - 8px);
+	height: calc(100% - 6px);
+	
+	box-sizing: border-box;
+}
+.popWin .btn a:hover {
+	background: #931F30;
+	color: #fff;
+	border-color: #931F30;
+}
+
+.loadingArea{
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background: #fff url('../images/bg01.jpg') repeat;
+	transition: all .5s;
+}
+
+.loadingArea .logo{
+	position: absolute;
+	z-index: 10;
+	left: 50%;
+	top: 48%;
+	transform: translate(-50%,-50%);
+	opacity: 0;
+	transition: all .6s;
+}
+
+.loadingArea:before, .loadingArea:after{
+	content: '';
+	position: absolute;
+	z-index: 1;
+	width: 50%;
+	height: 0;
+	background: url('../images/menuBg.jpg') repeat;
+	transition: all .7s;
+}
+
+.loadingArea:before{
+	left: 0;
+	top: 0;
+	background-position: center top;
+}
+
+.loadingArea:after{
+	right: 0;
+	bottom: 0;
+	background-position: center bottom;
+}
+
+.loadingArea.show:before, .loadingArea.show:after{
+	height: 100vh;
+	transition-delay: .5s;
+}
+
+.loadingArea.show .logo {
+	opacity: 1;
+	top: 50%;
+	transition-delay: 1.2s;
+}
+
+.loadingArea.ok{
+	background: none;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .5s 1s;
+}
+
+.loadingArea.ok:before {
+	top: auto;
+	bottom: 0;
+	height: 0;
+	background-position: center bottom;
+}
+
+.loadingArea.ok:after {
+	top: 0;
+	bottom: auto;
+	height: 0;
+	background-position: center top;
+}
+
+.loadingArea.ok .logo{
+	opacity: 0;
+	transition: all 1s .2s;
+}
+.toTop-arrow {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #931F30;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 31px;
+	height: 7px;
+	border-radius: 3px;
+	background: #FFFFFF;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
+
+
+/*人氣飲品JS*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
+.snip1585 {
+  background-color: #931F30;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Microsoft JhengHei';
+  font-size: 16px;
+  margin: 10px;
+  max-width: 315px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.snip1585 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1585:before,
+.snip1585:after {
+  background-color: #931F30;
+  border-top: 50px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 50px solid rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1585:before {
+  -webkit-transform: scaleY(2);
+  transform: scaleY(2);
+}
+
+.snip1585:after {
+  -webkit-transform: scaleY(2);
+  transform: scaleY(2);
+}
+
+.snip1585 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1585 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  z-index: 2;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.snip1585 h3 {
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.snip1585 h3 span {
+  display: block;
+  font-weight: 300;
+  font-size:12pt;
+  line-height: 2em;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.snip1585 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.snip1585:hover > img,
+.snip1585.hover > img {
+  opacity: 0.7;
+}
+
+.snip1585:hover:before,
+.snip1585.hover:before,
+.snip1585:hover:after,
+.snip1585.hover:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.snip1585:hover figcaption,
+.snip1585.hover figcaption {
+  opacity: 1;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
